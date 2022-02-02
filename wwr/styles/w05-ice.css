@@ -1,0 +1,23 @@
+body{
+    background-color: gray;
+    margin: 0 auto;
+    max-width: 100%;
+}
+img{
+    max-width: 100%;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom:10%;
+}
+.grapic{
+    max-width: 200px;
+    border: solid;
+    border-radius: 50%;
+    border-width:15px;
+    border-color:rgb(70, 70, 70);
+}
