@@ -1,0 +1,53 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+main{
+    grid-column: 2/4;
+}
+.image{
+    grid-column: 1/2;
+    display: block;
+    margin-left: auto;
+    
+}
+.title{
+    color: rgb(105, 105, 105);
+    font-size: 50px;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.ad{
+    color: rgb(143, 142, 142);
+    font-size: 25px;
+    padding-right: 30px;
+    margin-left:10px;
+    text-align: center;}
+.check_mark {
+    color: rgb(143, 142, 142);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    text-align: left;
+}
+#email{
+    font-size: 50px;
+    border-radius: 5px;
+}
+#name{
+    grid-column: 2/3;
+    font-size: 50px;
+    border-radius: 5px;
+
+}
+#subscribe{
+    border-color: orange;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+}
+#subscribe:hover{
+   background-color: rgb(216, 140, 0);
+}
