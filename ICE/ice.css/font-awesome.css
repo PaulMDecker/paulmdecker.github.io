@@ -1,0 +1,21 @@
+body{
+   
+}
+
+.fingerprint{
+    color: yellow;
+    font-size: 120px;
+
+}
+.business{
+    color: green;
+    font-size: 50px;
+}
+.stars{
+    color: silver;
+    font-size: 75px;
+}
+.leaderboard{
+    color: blue;
+    font-size: 200px;
+}
