@@ -242,3 +242,21 @@ footer .social img{
         margin-top: 25px;
     }
 }
+.river-grid{
+    margin: 200px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.river-grid p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.salmon_river{
+    max-width: 300px;
+}
+.desolation{
+    max-width: 300px;
+}
+.grand{
+    max-width: 300px;
+}
