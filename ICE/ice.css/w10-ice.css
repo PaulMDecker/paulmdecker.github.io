@@ -1,0 +1,79 @@
+
+
+.beach{
+    max-width: 300px;
+}
+.check{
+    text-align: center;
+    border: 1px solid black;
+    max-width: 400px;
+    margin-left: 300px;
+    margin-bottom: 10px;
+
+}
+body .checkmark{
+   color: green;
+   font-size: 75px;
+}
+body{
+    text-align: center;
+}
+
+.sweet{
+    border:1px solid black;
+    max-width: 400px;
+    margin-left: 300px;
+    margin-bottom: 10px;
+}
+
+.oops{
+    border:1px solid black;
+    max-width: 400px;
+    margin-left: 300px;
+    margin-bottom: 10px;
+}
+body .cross{
+    color: red;
+    font-size: 75px;
+}
+.html_example{
+    border: 1px solid black;
+    max-width: 400px;
+    margin-left: 300px;
+   
+
+}
+body .i-spy{
+    color: lightblue;
+    font-size: 75px;
+}
+.thumb{
+    max-width: 15px;
+    color: white;
+    text-align: center;
+}
+
+.ok_button{
+    background-color: #4682d5;
+}
+
+.close_x{
+    text-align: right;
+    padding-right: 15px;
+    color: grey;
+}
+
+.bold{
+    font-weight: bolder;
+}
+.hmtl_sentence{
+    font-family: "NoyhW01-Light";
+}
+
+.thumbbutton{
+    text-align: center;
+    background-color: #4682d5;
+}
+button{
+    padding: 5px;
+}
