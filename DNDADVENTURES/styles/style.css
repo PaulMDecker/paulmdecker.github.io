@@ -1,6 +1,7 @@
 body{
-    max-width: 100%;
+    width: 100;
     background-color: #078EF5;
+    margin: 0;
 }
 .logo{
     max-width: 50px;
@@ -10,18 +11,20 @@ img{
 }
 .hero_img{
     max-width: 100%;
-    margin-left: -8px;
 }
 .treasure{
     max-width: 100%;
-    max-height: 400px;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    padding-top: 200px;
+    
 }
 header{
   display: grid;
   grid-template-columns: 50px auto;
   background-color: #F5D314;
-  margin-top: -8px;
-  margin-left: -8px;
+  width: 100%;
 }
 nav a{
   padding-left: 50px;
@@ -34,6 +37,8 @@ main{
 }
 main a{
   text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-right: 35px;
   margin-left: 35px;
   margin-top: 35px;
@@ -100,4 +105,13 @@ footer{
   }
     .form-container .btn:hover, .open-button:hover {
     opacity: 1;
+  }
+  .resources_main p{
+    grid-column: 2/3;
+  }
+  .resources_main li{
+    grid-column: 2/3;
+  }
+  .resource-foot{
+    margin-top: 50px;
   }
