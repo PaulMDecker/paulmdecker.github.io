@@ -25,6 +25,7 @@ header{
   grid-template-columns: 50px auto;
   background-color: #F5D314;
   width: 100%;
+  align-items: center;
 }
 nav a{
   padding-left: 50px;
@@ -34,6 +35,7 @@ main{
   grid-template-columns: 1fr 1fr 1fr;
   display: grid;
   margin-bottom: -150px;
+  font-family: 'MedievalSharp', cursive;
 }
 main a{
   text-align: center;
@@ -51,6 +53,7 @@ main a{
 }
 #resources p{
   padding-top: 30px;
+  font-family: 'MedievalSharp', cursive;
 }
 footer{
   background-color: #F5D314;
@@ -111,7 +114,41 @@ footer{
   }
   .resources_main li{
     grid-column: 2/3;
+    font-family: 'Times';
   }
   .resource-foot{
     margin-top: 50px;
+  }
+  .question{
+    grid-column: 2/3;
+}
+  .answer{
+    grid-column: 2/3;
+    font-family: 'Times';
+  }
+  .map{
+    size: 100%;
+    max-width: 100%;
+    grid-column: 1/2;
+    padding-right: 10px;
+    grid-row: 1;
+    margin-bottom: -8px;
+  }
+  .map2{
+    size: 100%;
+    max-width: 100%;
+    grid-column: 3/4;
+    padding-right: 10px;
+    grid-row: 1;
+    margin-bottom: -8px;
+    margin-left: 10px;
+  }
+  .QA{
+    grid-row: 1;
+    grid-column: 2;
+  }
+  #intro{
+    grid-column: 1/4;
+    margin-left: 100px;
+    margin-right: 100px;
   }
