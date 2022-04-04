@@ -1,5 +1,4 @@
 body{
-    width: 100;
     background-color: #078EF5;
     margin: 0;
 }
@@ -127,7 +126,6 @@ footer{
     font-family: 'Times';
   }
   .map{
-    size: 100%;
     max-width: 100%;
     grid-column: 1/2;
     padding-right: 10px;
@@ -135,7 +133,6 @@ footer{
     margin-bottom: -8px;
   }
   .map2{
-    size: 100%;
     max-width: 100%;
     grid-column: 3/4;
     padding-right: 10px;
